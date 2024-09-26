@@ -1,0 +1,25 @@
+[
+    {
+      "title": "2nd KICKSTARTER CAMPAIGN - FREERUN",
+      "imageSrc": "projects/bracelet.png",
+      "description": "Enhancing the running experience with a connected bracelet",
+      "skills": ["Leadership", "Prototyping", "Industrialization"],
+      "demo": "https://www.instagram.com/freerun.tech/"
+    },
+    {
+      "title": "1st KICKSTARTER CAMPAIGN - KOLOBIGO",
+      "imageSrc": "projects/kolobigo.png",
+      "description": "With 2 friends, we kickstarted a leather-based project",
+      "skills": ["273% funded", "Supply Chain", "Project management"],
+      "demo": "https://www.youtube.com/watch?v=A51NcPrB2aM",
+      "source": "https://www.kickstarter.com/projects/kolobigo/quickstarter-kolobigo-the-ultimate-phone-strap"
+    },
+    {
+      "title": "Hydroponics project ",
+      "imageSrc": "projects/hydroponics.png",
+      "description": "Innovate with hydroponic systems for the future of agriculture",
+      "skills": ["Computer Vision", "Prototyping", "Exhibitions"],
+      "demo": "https://ift.devinci.fr/Aquaponic-System",
+      "source": "https://github.com/ArthurSZANTYR/aquaponics-platform"
+    }
+  ]
