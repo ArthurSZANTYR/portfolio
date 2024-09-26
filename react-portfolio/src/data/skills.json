@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "Pytorch",
+      "imageSrc": "skills/pytorch.png"
+    },
+    {
+      "title": "C / C# / C++",
+      "imageSrc": "skills/cLanguage.png"
+    },
+    {
+      "title": "3D CAD - OnShape",
+      "imageSrc": "skills/onShape.png"
+    },
+    {
+      "title": "Electronics",
+      "imageSrc": "skills/electronics.png"
+    },
+    {
+      "title": "3D Printing",
+      "imageSrc": "skills/3dPrinting.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    }
+  ]

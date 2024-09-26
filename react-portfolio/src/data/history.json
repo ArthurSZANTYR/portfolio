@@ -1,0 +1,47 @@
+[
+    {
+      "role": "Creative Technologist",
+      "organisation": "Valeo",
+      "startDate": "April, 2024",
+      "endDate": "August, 2024",
+      "context": "Contributed to mobility innovations at Valeo's CarLab",
+      "experiences": [  "User centered approach",
+                        "Prototyped and tested solutions for autonomous mobility",
+                        "Developed deep learning super-resolution model"
+                    ],
+      "imageSrc": "history/valeo.png"
+    },
+    {
+      "role": "Product design Engineering",
+      "organisation": "Hear&Know",
+      "startDate": "May, 2023",
+      "endDate": "Aug, 2023",
+      "context": "French company offering innovative tracking solutions",
+      "experiences": [  "Used LoRaWAN and BLE protocols",
+                        "Prototyped a tracking device for Alzheimer's patients"
+                    ],
+      "imageSrc": "history/hAndK.png"
+    },
+    {
+      "role": "Founder and President",
+      "organisation": "Maison Standart",
+      "startDate": "January, 2020",
+      "endDate": "Present",
+      "context": "I founded a startup to resolve the demand of personalized clothes - for students clubs in universities",
+      "experiences": [
+        "Develop a sustainable business model (€60K annual sales)",
+        "Manage operations from suppliers to customer relations"
+                    ],
+      "imageSrc": "history/standart.png"
+    },
+    {
+      "role": "Versatile Employee",
+      "organisation": "McDonald's",
+      "startDate": "May, 2021",
+      "endDate": "Aug, 2023",
+      "experiences": [
+        "Efficiency and speed in task execution across diverse roles"
+                    ],
+      "imageSrc": "history/mcdonald.png"
+    }
+  ]
