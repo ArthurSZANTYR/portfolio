@@ -6,7 +6,7 @@ import { getImageUrl } from '../../utils';
 export const About = () => {
   return (
     <section className={styles.container} id='about'>
-        <h2 className={styles.title}>About</h2>
+        <h2 className={styles.title}>Some things I believe</h2>
         <div className={styles.content}>
             <img 
                 src={getImageUrl("about/aboutImage.png")} 
@@ -21,8 +21,8 @@ export const About = () => {
                         className={styles.aboutIcon}
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Technology</h3>
-                        <p>I am interested about the new trens in technology and mostly about AI and electronics</p>
+                        <h3>Do things fast</h3>
+                        <p>I believe working fast keeps you focused on the essence of your project - no time for bullshit - be user-centered</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
@@ -32,19 +32,19 @@ export const About = () => {
                         className={styles.aboutIcon}
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Design</h3>
-                        <p>I like to be user centered when develloping new products, and test the user to focus on what really matters</p>
+                        <h3>You can do more than you think</h3>
+                        <p>It can be easier to achieve big things because exciting projects are more motivating</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img 
-                        src={getImageUrl("about/marketImage.png")}
+                        src={getImageUrl("about/smileImage.png")}
                         alt="market-image"
                         className={styles.aboutIcon}
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>Market</h3>
-                        <p>I think that the real test for a product is the market - so i experienced it in lots of ways</p>
+                        <h3>Smile</h3>
+                        <p>A cheerful heart is good medicine, but a crushed spirit dries up the bones (Proverbs 17:22)</p>
                     </div>
                 </li>
             </ul>
