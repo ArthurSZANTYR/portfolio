@@ -11,7 +11,7 @@
 }
 
 .title{
-    font-size: 30px;
+    font-size: var(--text-size-large);
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
@@ -28,7 +28,7 @@
 }
 
 .menuItems a{
-    font-size: 25px;
+    font-size: var(--text-size-normal);
     color: var(--color-text);
     text-decoration: none;
 }
@@ -64,11 +64,10 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(25, 55, 109);
         background: linear-gradient(
             0deg,
-            rgba(25, 55, 109, 0.2) 0%,
-            rgba(25, 55, 109, 1) 100%
+            rgba(25, 55, 109, 0.8) 0%,
+            rgba(3, 90, 186, 1) 100%
             );
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);

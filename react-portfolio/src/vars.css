@@ -8,4 +8,10 @@
 
     /* Fonts */
     --font-roboto: "Roboto";
+
+    /* Tailles de texte */
+    --text-size-small: 15px;
+    --text-size-normal: 25px;
+    --text-size-large: 30px;
+    --text-size-xlarge: 72px;
 }

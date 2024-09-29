@@ -22,7 +22,7 @@ export const About = () => {
                     />
                     <div className={styles.aboutItemText}>
                         <h3>Do things fast</h3>
-                        <p>I believe working fast keeps you focused on the essence of your project - no time for bullshit - be user-centered</p>
+                        <p>Working fast keeps you focused on what truly matters - no time for bullshit</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
@@ -32,8 +32,8 @@ export const About = () => {
                         className={styles.aboutIcon}
                     />
                     <div className={styles.aboutItemText}>
-                        <h3>You can do more than you think</h3>
-                        <p>It can be easier to achieve big things because exciting projects are more motivating</p>
+                        <h3>Be user-centered</h3>
+                        <p>The end user is the top priority - design for them, test with them, iterate continuously</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
