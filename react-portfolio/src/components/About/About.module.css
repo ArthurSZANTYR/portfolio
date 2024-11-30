@@ -45,8 +45,8 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
+    var(--color-bg) 0%,
+    var(--color-dark) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -87,12 +87,19 @@
     display: none;
   }
 
+  .aboutItem {
+    background-image: var(--color-bg) 0%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   .aboutItems {
     margin-top: 29px;
   }
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+  .aboutIcon{
+    margin-left: 25px;
   }
 }

@@ -18,9 +18,29 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* Empêche les éléments de se déplacer sur une nouvelle ligne */
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Aligne les cartes à gauche */
   gap: 15px;
   width: 100%;
+  overflow-x: auto; /* Active le défilement horizontal */
+  scroll-snap-type: x mandatory; /* Permet un défilement fluide et une "accroche" des éléments */
 }
+
+.projects::-webkit-scrollbar {
+  width: 0; /* Cacher la barre de défilement verticale */
+  height: 0; /* Cacher la barre de défilement horizontale */
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Cacher le "thumb" (partie mobile de la barre de défilement) */
+}
+.projectCard {
+  scroll-snap-align: start; /* Permet de "fixer" chaque carte lors du défilement */
+  transition: transform 0.3s ease-in-out; /* Ajout d'une transition pour l'agrandissement */
+}
+
+.projectCard:focus, .projectCard:focus-within {
+  transform: scale(1.1); /* Agrandit légèrement la carte lorsqu'elle est en avant */
+}
+
