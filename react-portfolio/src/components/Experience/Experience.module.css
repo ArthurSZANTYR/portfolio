@@ -65,9 +65,47 @@
   gap: 40px;
 }
 
+.historyTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Prend toute la largeur disponible */
+}
+
+.historyTitle {
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Aligne les éléments verticalement */
+  width: 100%; /* Prend toute la largeur du conteneur */
+}
+
+.historyTitle img {
+  width: 50px;
+  margin-right: 10px; /* Espacement entre l'image et le texte */
+}
+
+.historyTitle h3 {
+  font-size: var(--text-size-normal);
+  font-weight: normal;
+  margin: 0; /* Supprime les marges par défaut */
+  white-space: normal; /* Permet au texte de se casser si nécessaire */
+  overflow: visible; /* Le texte n'est pas tronqué */
+  flex: 1; /* Prend tout l'espace disponible pour le texte */
+}
+
+.historyTitle span {
+  flex-shrink: 0; /* Empêche le bouton de se redimensionner */
+  margin-left: 10px; /* Espace constant entre le texte et le bouton */
+  text-align: center;
+  width: 30px; /* Largeur fixe pour le bouton */
+}
+
+
+
+
 .historyItem {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 17px;
   background: var(--color-secondary);
@@ -76,18 +114,21 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.historyItem img {
-  width: 50px;
-}
+
 
 .historyItemDetails {
   font-family: var(--font-roboto);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
-.historyItemDetails h3 {
-  font-size: var(--text-size-normal);
-  font-weight: 500;
+.historyItemDetails.show {
+  height: auto;
+  max-height: 9999px ;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
 }
+
 
 .historyItemDetails h4 {
     font-size: var(--text-size-small);

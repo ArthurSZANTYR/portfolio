@@ -19,7 +19,7 @@
 }
 
 .text p {
-  font-size: var(--text-size-large);
+  font-size: var(--text-size-normal);
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -63,6 +63,6 @@
   }
 
   .link a {
-    font-size: var(--text-size-normal);
+    font-size: var(--text-size-small);
   }
 }

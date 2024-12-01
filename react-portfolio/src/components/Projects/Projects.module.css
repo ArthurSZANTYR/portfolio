@@ -5,6 +5,7 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 1px;
 }
 
 .title {
@@ -28,12 +29,12 @@
 }
 
 .projects::-webkit-scrollbar {
-  width: 0; /* Cacher la barre de défilement verticale */
-  height: 0; /* Cacher la barre de défilement horizontale */
+  height: 8px; /* Personnalisation de la barre de défilement */
 }
 
 .projects::-webkit-scrollbar-thumb {
-  background-color: transparent; /* Cacher le "thumb" (partie mobile de la barre de défilement) */
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 .projectCard {
   scroll-snap-align: start; /* Permet de "fixer" chaque carte lors du défilement */
