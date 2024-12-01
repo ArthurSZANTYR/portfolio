@@ -5,7 +5,6 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 1px;
 }
 
 .title {
@@ -21,7 +20,7 @@
   flex-direction: row;
   flex-wrap: nowrap; /* Empêche les éléments de se déplacer sur une nouvelle ligne */
   align-items: center;
-  justify-content: flex-start; /* Aligne les cartes à gauche */
+  justify-content: center; /* Centre les cartes horizontalement */
   gap: 15px;
   width: 100%;
   overflow-x: auto; /* Active le défilement horizontal */
@@ -43,5 +42,15 @@
 
 .projectCard:focus, .projectCard:focus-within {
   transform: scale(1.1); /* Agrandit légèrement la carte lorsqu'elle est en avant */
+}
+
+@media screen and (max-width: 830px){
+  .projects {
+  justify-content: flex-start;
+  }
+
+  .container {
+    margin-top: 1px;
+  }
 }
 

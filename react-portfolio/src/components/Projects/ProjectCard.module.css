@@ -5,10 +5,9 @@
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(180deg, var(--color-dark) 0%, var(--color-secondary) 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
-  height: 700px;
+  height: 680px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
@@ -38,10 +37,9 @@
 }
 
 .skill {
-  font-size: var(--text-size-normal);
+  font-size: var(--text-size-small);
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
   padding: 2px 22px;
 }
 
